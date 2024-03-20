@@ -1,1 +1,20 @@
+package br.unipar.main;
 
+import java.util.Scanner;
+
+public class exemplodoWhile {
+    public static void main(String[] args) {
+
+        int opcao = 0;
+        Scanner scanner = new Scanner(System.in);
+
+
+        do{
+
+            System.out.println("Para voce continuar informe 0");
+            opcao = scanner.nextInt();
+
+        }while(opcao == 0);
+    }
+
+}
